@@ -11,7 +11,7 @@ Funciones implementadas:
     void Update();  //función de refresco para incluir en el timer o en el LOOP
     void MoveTo(float posicion);   //activa un movimiento a una posicion absoluta
     void MoveRel(float posicion);  //activa un movimiento relativo a la posicion actual
-    void MovSpeedCtrl(int vel);  //Control de movimiento por velocidad. Para control de servos 360 grados usados como motores.
+    void MovSpeedCtrl(int vel);  //Control de movimiento por velocidad. Para control con joysticks.
     void Stop();    //detiene el motor en el momento actual, sin terminar el ultimo movimiento
     void Set_Vel(float Vel);    // asigna Velocidad
     void Set_Pos(float Pos); // posiciona el servo de forma instantanea en un angulo
