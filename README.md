@@ -4,8 +4,9 @@ Permite realizar movimientos a velocidad controlada sobre un servo.
 Podrá manera tanto servos conectados a placa principal, como servos conectados a PCA9685, pudiendo convinar las dos opciones o servos distribuidos entre diferentes PCA9685.
 Podremos gestionar el refresco por poolling en el LOOP o por timer. Esto último asegurará movimientos más estables al no depender del ciclo del LOOP.
 
-Funciones implementadas.
-void Init(int pin);  //  si se inicializarona las variables  controlador y salida usada
+Funciones implementadas: 
+
+    void Init(int pin);  //  si se inicializarona las variables  controlador y salida usada
 
     void Update();  //función de refresco para incluir en el timer o en el LOOP
     void MoveTo(float posicion);   //activa un movimiento a una posicion absoluta
